@@ -1,0 +1,6 @@
+{
+  "project": "factory-demand-response",
+  "load_kinds": ["interruptible", "shiftable", "must_run", "ramping"],
+  "plan_states": ["calculated", "awaiting_arbitration", "approved", "active", "closed"],
+  "arbitration_results": ["energy_priority", "production_protected", "time_limited_exception"]
+}
